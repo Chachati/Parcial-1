@@ -39,7 +39,14 @@ Diseñe un método de la clase EciGrupos (especificación y diagrama de secuenci
 ## IV. (20%) Conceptos
 
 1. ¿Qué es encapsulamiento? ¿Qué ventajas ofrece?
-2. ¿Qué es ocultación de información? ¿Por qué aplicarla? ¿Cómo se implementa en Java?
+Cuando practicamos encapsulamiento, estamos definiendo los atributos y los procedimientos o funciones de una clase o plantilla, tomamos una situacion y luego de lo abstracto definimos las diferentes clases de una manera mas ordenada. En el encapsulamiento estamos declarando si algunos de los atributos o metodos pueden ser accedidas por otras clases(ocultar).
+las ventajas que ofrece:
+Las ventajas son numerosas, pero mencionando las mas importantes seria que permite tener una organizacion e union (cohesion) en el codigo, orden, y permite que modificar el codigo sea mas comodo cuando es un proyecto muy grande.
+2. ¿Qué es ocultación de información? ¿Por qué aplicarla? ¿Cómo se implementa en Java
+Cuando se aplica la ocultacion de la informacion se esta denotando si un objeto, clase, metodo o funcion puede se publica o privada o protegido, en otras palabra si se da acceso a instancias de una clase por otra clase.
+aplicarla es importante, ya que cuando estamos ocultando la informacion, estamos asegurando que no se modifique o se pierdan los datos que estan guardados por algo exterior, y estamos controlando como accedemos a estas instancias, creando una organizacion, seguridad de los datos de ser privada o protegida dependiendo de lo que se necesite.
+Implementarla en java seria utilizando protected, private y public.
+
 
 ## V. (20%) Bono
 
