@@ -29,8 +29,8 @@ public class Iteration {
         int result = 0;
         for (int i = 0; i < activities.size(); i++) {
 
-           if(project.isActive());{
-            result = +result;
+           if(activities.get(i).isActive());{
+            result++;
            }
 
         }

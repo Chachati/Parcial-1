@@ -32,7 +32,7 @@ public class Group {
         int result = 0;
         for (int i = 0; i< projects.size() ;i++){
             if(projects.get(i).isActive()){
-            result += result;
+            result++;
             }
         }
         return result;
