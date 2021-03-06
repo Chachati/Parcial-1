@@ -25,11 +25,15 @@ public class Iteration {
     }
 
 
-    public int countOpenActivities (){
-        int result;
-        for (int i = 0; i < iterations.size() ;i++){
-        project.isActive();
+    public int countOpenActivities () {
+        int result = 0;
+        for (int i = 0; i < activities.size(); i++) {
+
+           if(project.isActive());{
+            result = +result;
+           }
+
+        }
         return result;
     }
-
 }

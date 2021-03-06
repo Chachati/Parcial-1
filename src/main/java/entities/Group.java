@@ -30,8 +30,8 @@ public class Group {
 
     public int countActiveProjects(){
         for (int i = 0; i< projects.size() ;i++){
-            boolean active = isActive();
-            return 0;
-    }
+            if ()
 
+    }
+        return 0;
 }
