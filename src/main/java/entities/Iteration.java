@@ -1,5 +1,6 @@
 package entities;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -8,6 +9,8 @@ public class Iteration {
     private String goal;
     private Project project;
     private List<Activity> activities;
+    private LocalDate dateInit;
+    private LocalDate dateEnd;
 
     public Iteration(String goal, Project project) {
         this.goal = goal;

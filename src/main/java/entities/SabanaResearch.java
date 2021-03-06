@@ -32,7 +32,7 @@ public class SabanaResearch {
         int ap =0;
         for (int i=0; i <countOfGroups();i++){
 
-            ap = countActiveProjects();
+            ap = Group.countActiveProjects();
         }
         return null;
     }

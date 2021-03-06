@@ -7,8 +7,11 @@ public class Summary {
     private Date LocalDate;
     private int activeProjects;
     private LocalDate date;
-
-
+    private Summary summaries;
+    private Group groups;
+    private Course courses;
+    private int openActivities;
+    private int closedActivities;
     public int getActiveProjects() {
         return activeProjects;
     }
