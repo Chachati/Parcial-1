@@ -29,9 +29,13 @@ public class Group {
     }
 
     public int countActiveProjects(){
+        int result = 0;
         for (int i = 0; i< projects.size() ;i++){
-            if ()
-
+            if(projects.get(i).isActive()){
+            result += result;
+            }
+        }
+        return result;
     }
-        return 0;
+
 }

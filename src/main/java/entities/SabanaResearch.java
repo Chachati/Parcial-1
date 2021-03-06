@@ -31,10 +31,10 @@ public class SabanaResearch {
     public Summary createSummaryEntry() {
         int ap =0;
         for (int i=0; i <countOfGroups();i++){
-            //ap = .countActiveProjects();
-
+            ap = groups.get(i).countActiveProjects();
         }
-        return null;
+        Summary summary= new Summary(ap,LocalDate.now());
+        return summary;
     }
 
 }
