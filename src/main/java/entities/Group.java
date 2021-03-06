@@ -29,9 +29,9 @@ public class Group {
     }
 
     public int countActiveProjects(){
-
-        return (0);
-
+        for (int i = 0; i< projects.size() ;i++){
+            boolean active = isActive();
+            return 0;
     }
 
 }
